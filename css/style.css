@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+img {
+    width: 100%;
+}
+.clr {
+    clear: both;
+}
+.home {
+    min-height: 100% ;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+.nav_bar{
+    width: 80% ;
+    margin: auto;
+    background-color: transparent;
+}
+.nav_left {
+    float: left;
+}
+.nav_left  img {
+    width: 50%;
+    padding: 10px 10px;
+}
+.nav_right {
+    float: right;
+}
+.nav_right ul {
+    list-style: none;
+}
+.nav_right ul li {
+    float: left;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+}
+.contact {
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    width: fit-content;
+    text-align: center;
+}
+.contact p {
+    color: rgba(255,255,255, .92);
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+}
+.contact h1 {
+    color: #fff;
+    margin-bottom: 18px;
+    line-height: 1.2em;
+    font-size: 76px ;
+    font-family: "Alegreya";
+    font-weight: 400;
+}
+.btn {
+    padding: 15px 30px;
+    letter-spacing: 0px;
+    font-size: 16px;
+    font-family: "Alegreya Sans";
+    margin-bottom: 12px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.btn1 {
+    background-color: #8e7754 ;
+    border: 2px solid transparent;
+}
+.btn2 {
+    color: #fff ;
+    border-color: #fff;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.who {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+}
+.who_left {
+    width: 45%;
+    float: left;
+    margin: 20px;
+    vertical-align: middle;
+}
+.who_right {
+    width: 45%;
+    float: left;
+    margin: 20px;
+    vertical-align: middle;
+}
+
+.who_right h2 {
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.38em;
+    margin-bottom: 25px;
+
+}
+.who_right p {
+    line-height: 1.86em;
+    color: #686868;
+    font-size: 17px;
+}
+.icon img {
+    width: 10%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+.icon p {
+    display: inline-block;
+    padding-left: 5px;
+}
+.location {
+    background-color: #F8F8F8;
+    overflow: auto;
+}
+
+.location_sec p {
+    line-height: 1.86em;
+    color: #686868;
+    font-size: 17px;
+}
+.location_sec h2 {
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.38em;
+    margin-bottom: 25px;
+}
+.baking {
+    padding-top: 40px;
+    text-align: center;
+}
+.baking h3 {
+    font-family: "Alegreya Sans";
+    font-size: 30px;
+    color: #303030;
+    line-height: 1.38em;
+}
+.baking p {
+    font-size: 17px;
+    color: #888;
+    max-width: 720px;
+    margin: 17px auto 0;
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+}
+.baking_sec {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0 ;
+    overflow: auto;
+}
+.bak_contant {
+    width: 30%;
+    float: left;
+    margin: auto;
+    padding-right: 30px;
+}
+.bak_contant h4 {
+    font-family: "Alegreya";
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.cont {
+    background-color: #F8F8F8;
+    overflow: auto;
+    margin-top: 40px; ;
+}
+.contact_sec {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    overflow: auto;
+}
+
+.contact_info {
+    width: 40%;
+    float: left;
+    text-align: left;
+    color: black;
+}
+.contact_info_right {
+    width: 40%;
+    float: right;
+} 
+.contact_info h2 {
+    font-family: "Alegreya";
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.contact_info p {
+    font-family: "Alegreya";
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+}
+.contact_info .icon img {
+    color: #fff;
+    background-color: #8e7754;
+    border: 1px solid ;
+}
+
+.footer_main {
+    background-color: #403d38;
+}
+.footer_sec {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+.Fsec_left {
+    width: 23%;
+    float: left;
+    padding-right: 20px;
+}
+.Fsec_med {
+    width: 23%;
+    float: left;
+    padding-right: 20px;
+
+}
+.Fsec_right {
+    width: 23%;
+    float: left;
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer_sec h4 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-family: Alegreya ;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+.footer_sec p {
+    color: #969696;
+    font-size: 15px;
+    line-height: 1.86em;
+    margin-bottom: 20px ;
+    font-family: "Alegreya Sans";
+}
+hr {
+    text-align: center;
+    color: #403d38;
+}
+.footer_sec .Fsec_right .icon_foot img {
+    width: 10%;
+    vertical-align: middle;
+}
+.footer_sec .Fsec_right .icon_foot p {
+    display: inline-block;
+    padding-left: 5px;
+}
+footer {
+    background-color: #353330;
+}
+.foot_bottom {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #777;
+}
+.icon_foot_botom {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.icon_foot_botom img {
+    margin: auto;
+    width: 5%;
+}

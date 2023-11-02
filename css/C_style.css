@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    width: 100%;
+}
+.clr {
+    clear: both;
+}
+
+.cont_main {
+    min-height: 250px;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cont_main h1 {
+    font-size: 56px;
+    font-family: "Alegreya";
+    color: #fff;
+    line-height: 1.38em;
+    padding: 40px 0;
+}
+.cont_page {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.cont_form {
+    width: 65%;
+    float: left;
+}
+.cont_page_info {
+    width: 30%;
+    float: right;
+}
+.cont_page h3 {
+    font-family: "Alegreya";
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.cont_page_info  p {
+    font-family: "Alegreya";
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+}
+.cont_page_info  .icon img {
+    color: #fff;
+    background-color: #8e7754;
+    border: 1px solid ;
+}
+.form_info {
+    width: 80%;
+    margin: auto;
+}
+.form_control input {
+    width: 40%;
+    font-weight: normal;
+    padding: 12px 12px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #e6e6e6;
+    line-height: 1.5;
+    color: #55595c;
+}
+.Subject input {
+    width: 88%;
+    font-weight: normal;
+    padding: 12px 12px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #e6e6e6;
+    line-height: 1.5;
+    color: #55595c;
+}
+.form_info textarea {
+    display: block;
+    width: 88%;
+    font-weight: normal;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #e6e6e6;
+    line-height: 1.5;
+    color: #55595c;
+}
+.form_btn {
+    font-size: 16px;
+    margin: 10px;
+    font-family: "Alegreya Sans";
+    background-color: #8e7754;
+    border: none;
+    border-radius: 4px;
+    line-height: 1.3rem;
+    padding: 11px 20px;
+    color: #fff;
+    cursor: pointer;
+}
